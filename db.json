@@ -41,6 +41,20 @@
       "title": "Nunix bottom load water dispenser",
       "description": "",
       "price": "@11,000"
+    },
+    {
+      "id": 7,
+      "image_url": "https://res.cloudinary.com/dm9owyvek/image/upload/v1699076277/WhatsApp_Image_2023-11-03_at_4.08.38_PM_dbxx8q.jpg",
+      "title": "Knife set (white)",
+      "description": "",
+      "price": "KES @2,700"
+    },
+    {
+      "id": 8,
+      "image_url": "https://res.cloudinary.com/dm9owyvek/image/upload/v1699076257/WhatsApp_Image_2023-11-03_at_9.36.45_AM_bvaztn.jpg",
+      "title": "24pcs cutely spoon gold n silver Eggshell shaped case",
+      "description": "",
+      "price": "KES. 4,200"
     }
   ]
 }
