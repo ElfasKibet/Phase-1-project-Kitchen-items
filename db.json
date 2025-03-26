@@ -1,0 +1,18 @@
+{
+  "apiProducts": [
+    {
+      "id": 1,
+      "image_url": "https://res.cloudinary.com/dm9owyvek/image/upload/v1699073236/WhatsApp_Image_2023-11-02_at_9.51.05_AM_thbbkb.jpg",
+      "title": "Nunix Cooker",
+      "description": "3G+1E. Electric oven 50*55.",
+      "price": "@24,000"
+    },
+    {
+      "id": 2,
+      "image_url": "https://res.cloudinary.com/dm9owyvek/image/upload/v1699078086/WhatsApp_Image_2023-11-02_at_9.50.53_AM_mjxdh7.jpg",
+      "title": "Nunix Cooker",
+      "description": "3G+1E. Electric oven. 60cm*60cm",
+      "price": "@27,000"
+    }
+  ]
+}
