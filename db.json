@@ -197,6 +197,22 @@
       "title": "Potato chipper",
       "description": "Potato chipper",
       "price": "KES @1,000"
+    },
+
+    {
+      "id": 29,
+      "image_url": "https://res.cloudinary.com/dm9owyvek/image/upload/v1699870309/WhatsApp_Image_2023-11-09_at_9.51.05_AM_1_gfhirw.jpg",
+      "title": "Citrus juicer",
+      "description": "Citrus juicer",
+      "price": "KES @2,500"
+    },
+
+    {
+      "id": 30,
+      "image_url": "https://res.cloudinary.com/dm9owyvek/image/upload/v1699869409/WhatsApp_Image_2023-11-13_at_7.20.32_AM_g5jnhj.jpg",
+      "title": "fruit press",
+      "description": "Manual fruit press",
+      "price": "KES @1,200"
     }
   ]
 }
