@@ -125,6 +125,20 @@
       "title": "4slot pan",
       "description": "4slot pan",
       "price": "KES @900"
+    },
+    {
+      "id": 19,
+      "image_url": "https://res.cloudinary.com/dm9owyvek/image/upload/v1699865856/WhatsApp_Image_2023-11-07_at_9.44.50_AM_fbu0hw.jpg",
+      "title": "Ramtoms Microwave",
+      "description": "Ramtons 20 lts digital microwave",
+      "price": "KES @12,000"
+    },
+    {
+      "id": 20,
+      "image_url": "https://res.cloudinary.com/dm9owyvek/image/upload/v1699867943/WhatsApp_Image_2023-11-07_at_9.49.03_AM_1_haa2vb.jpg",
+      "title": "Hisense microwave",
+      "description": "Hisense microwave digital  20 ltrs",
+      "price": "KES @11,500"
     }
   ]
 }
