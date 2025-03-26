@@ -37,5 +37,19 @@ document.addEventListener("DOMContentLoaded", () => {
 totalPriceElement.textContent = `Total Price: Ksh${total.toFixed(2)}`;
 }
 
+    // Function to handle the "Add to Cart" button click
+    function handleAddToCartClick(product) {
+        cart.push(product);
+        updateCartDisplay();
+        //alert(`Added to Cart: ${product.title}`);
+    }
+
+    // Function to remove items from the cart
+    function removeFromCart(index) {
+        cart.splice(index, 1);
+        updateCartDisplay();
+    }
+
+
 
 
