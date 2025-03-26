@@ -19,4 +19,16 @@ document.addEventListener("DOMContentLoaded", () => {
             const cartItem = document.createElement("li");
             cartItem.textContent = `${product.title} - Price: ${product.price}`;
 
+            
+            // Add a button to remove items from the cart
+            const removeButton = document.createElement("button");
+            removeButton.textContent = "Remove";
+            removeButton.addEventListener("click", () => {
+                removeFromCart(index);
+            });
+
+            cartItem.appendChild(removeButton);
+            cartItems.appendChild(cartItem);
+
+
 
