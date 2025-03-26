@@ -83,6 +83,27 @@
       "title": "Blender",
       "description": "*1500W Professional/commercial Heavy Duty Blender 2.0 Lt Jug",
       "price": "KES @10,000"
+    },
+    {
+      "id": 13,
+      "image_url": "https://res.cloudinary.com/dm9owyvek/image/upload/v1699078684/WhatsApp_Image_2023-11-02_at_8.19.08_AM_ayqwta.jpg",
+      "title": "Dish rack",
+      "description": "Dish rack 3 layers stainless steel",
+      "price": "@2,400"
+    },
+    {
+      "id": 14,
+      "image_url": "https://res.cloudinary.com/dm9owyvek/image/upload/v1699219579/WhatsApp_Image_2023-11-04_at_9.06.52_AM_pre98s.jpg",
+      "title": "dish rack/drainer",
+      "description": "Over the sink dish rack/drainer @3800",
+      "price": "KES @4,300"
+    },
+    {
+      "id": 15,
+      "image_url": "https://res.cloudinary.com/dm9owyvek/image/upload/v1699220544/WhatsApp_Image_2023-11-04_at_9.06.24_AM_sh2smo.jpg",
+      "title": "Dish rack",
+      "description": "High quality heavy duty 3 tier dish rack with cutlery holder",
+      "price": "KES @4,000"
     }
   ]
 }
