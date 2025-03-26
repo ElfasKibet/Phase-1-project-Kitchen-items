@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=ABeeZee"
+    />
+    <title>KITCHENITEMS</title>
+  </head>
+
+  <body>
+    <h1>CULINARY EDGE</h1>
+
+    <!-- Cart display on the right side -->
+    <div class="cart-container">
+      <div class="cart">
+        <h2>Your Cart</h2>
+        <ul id="cart-items"></ul>
+        <div id="total-price">Total Price: Ksh 0.00</div>
+        <button id="checkout-button">Submit</button>
+      </div>
+    </div>
+
+    <div class="products" id="products-list">
+      <!-- Product items will be added dynamically from JavaScript -->
+    </div>
+
+    <div class="contact-details">
+      <p>
+        Incase of an inquiry, kindly contact <br /><br />
+        Elfas Kibet; kibetelfas@gmail.com; 0722 431 922 <br /><br />
+        Free Deliveries within Nairobi and its environs
+      </p>
+    </div>
+
+    <!-- Success popup -->
+    <div id="success-popup" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Transaction Successful</h2>
+      </div>
+    </div>
+
+    <script src="./src/index.js"></script>
+  </body>
+</html>
