@@ -27,6 +27,20 @@
       "title": "Nunix",
       "description": "20 lts microwave",
       "price": "@8,500"
+    },
+    {
+      "id": 5,
+      "image_url": "https://res.cloudinary.com/dm9owyvek/image/upload/v1699222001/WhatsApp_Image_2023-11-04_at_9.03.23_AM_dx7tlm.jpg",
+      "title": "popcorn maker",
+      "description": "popcorn maker",
+      "price": "@1,800"
+    },
+    {
+      "id": 6,
+      "image_url": "https://res.cloudinary.com/dm9owyvek/image/upload/v1699075257/WhatsApp_Image_2023-11-03_at_9.42.53_AM_dhkpio.jpg",
+      "title": "Nunix bottom load water dispenser",
+      "description": "",
+      "price": "@11,000"
     }
   ]
 }
