@@ -116,5 +116,18 @@ totalPriceElement.textContent = `Total Price: Ksh${total.toFixed(2)}`;
                         cartButton.className = "cart-button";
                         cartButton.textContent = "Add to Cart";
 
+                         // Add a click event handler to the "Add to Cart" button
+                         cartButton.addEventListener("click", () => {
+                            handleAddToCartClick(product);
+                        });
+
+                        // Append all elements to the product container
+                        productElement.appendChild(img);
+                        productElement.appendChild(title);
+                        productElement.appendChild(description);
+                        productElement.appendChild(price);
+                        productElement.appendChild(cartButton);
+
+
 
 
