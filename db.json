@@ -104,6 +104,27 @@
       "title": "Dish rack",
       "description": "High quality heavy duty 3 tier dish rack with cutlery holder",
       "price": "KES @4,000"
+    },
+    {
+      "id": 16,
+      "image_url": "https://res.cloudinary.com/dithvv0n0/image/upload/v1699813569/WhatsApp_Image_2023-11-08_at_7.15.38_AM_q8qlup.jpg",
+      "title": "chapati maker",
+      "description": "Sokany chapati maker",
+      "price": "KES @3,300"
+    },
+    {
+      "id": 17,
+      "image_url": "https://res.cloudinary.com/dm9owyvek/image/upload/v1699866510/WhatsApp_Image_2023-11-07_at_9.46.10_AM_rrfemh.jpg",
+      "title": "chapati maker",
+      "description": "Nunix chapati maker",
+      "price": "KES @4,300"
+    },
+    {
+      "id": 18,
+      "image_url": "https://res.cloudinary.com/dithvv0n0/image/upload/v1699813571/WhatsApp_Image_2023-11-08_at_7.18.54_AM_nd6alg.jpg",
+      "title": "4slot pan",
+      "description": "4slot pan",
+      "price": "KES @900"
     }
   ]
 }
