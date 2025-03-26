@@ -29,6 +29,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
             cartItem.appendChild(removeButton);
             cartItems.appendChild(cartItem);
+ 
+            // Calculate the total price
+  total += parseFloat(product.price.replace(/[^0-9.]/g, ''));
+});
+
+totalPriceElement.textContent = `Total Price: Ksh${total.toFixed(2)}`;
+}
 
 
 
