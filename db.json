@@ -161,6 +161,20 @@
       "title": "signature dinner set",
       "description": "40pcs signature dinner set",
       "price": "KES @8,000"
+    },
+    {
+      "id": 24,
+      "image_url": "https://res.cloudinary.com/dm9owyvek/image/upload/v1699868301/WhatsApp_Image_2023-11-13_at_10.39.31_AM_vnl5xb.jpg",
+      "title": "signature dinner set",
+      "description": "40pcs signature dinner set",
+      "price": "KES @8,000"
+    },
+    {
+      "id": 25,
+      "image_url": "https://res.cloudinary.com/dm9owyvek/image/upload/v1699222446/WhatsApp_Image_2023-11-06_at_1.13.43_AM_hkqch7.jpg",
+      "title": "washing machine",
+      "description": "nunix-7.5kg-twins-tub-washing-machine.",
+      "price": "@41,000"
     }
   ]
 }
