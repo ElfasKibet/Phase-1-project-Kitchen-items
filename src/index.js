@@ -13,4 +13,10 @@ document.addEventListener("DOMContentLoaded", () => {
           cartItems.innerHTML = '';
   
           let total = 0;
-          
+
+          // Populate the cart items and calculate the total price
+        cart.forEach((product, index) => {
+            const cartItem = document.createElement("li");
+            cartItem.textContent = `${product.title} - Price: ${product.price}`;
+
+
