@@ -175,6 +175,28 @@
       "title": "washing machine",
       "description": "nunix-7.5kg-twins-tub-washing-machine.",
       "price": "@41,000"
+    },
+
+    {
+      "id": 26,
+      "image_url": "https://res.cloudinary.com/dm9owyvek/image/upload/v1699869847/WhatsApp_Image_2023-11-11_at_8.35.40_AM_eibiij.jpg",
+      "title": "Washing Machine",
+      "description": "Hisense Twin Tub 7.5Kg",
+      "price": "KES @24,000"
+    },
+    {
+      "id": 27,
+      "image_url": "https://res.cloudinary.com/dm9owyvek/image/upload/v1699869975/WhatsApp_Image_2023-11-11_at_8.33.53_AM_boocta.jpg",
+      "title": "Washing machine",
+      "description": "Hisense Twin Tub 14Kg Washing machine",
+      "price": "KES @37,000"
+    },
+    {
+      "id": 28,
+      "image_url": "https://res.cloudinary.com/dm9owyvek/image/upload/v1699869657/WhatsApp_Image_2023-11-11_at_10.05.08_AM_w3c0bi.jpg",
+      "title": "Potato chipper",
+      "description": "Potato chipper",
+      "price": "KES @1,000"
     }
   ]
 }
