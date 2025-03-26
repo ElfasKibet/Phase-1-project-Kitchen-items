@@ -73,5 +73,48 @@ totalPriceElement.textContent = `Total Price: Ksh${total.toFixed(2)}`;
         });
     }
 
+    // Attach a click event handler to the checkout button
+    const checkoutButton = document.getElementById("checkout-button");
+    checkoutButton.addEventListener("click", handleCheckout);
+
+    // Function to fetch and display products
+    function fetchProducts() {
+        fetch(base_url)
+            .then((response) => {
+                if (!response.ok) {
+                    throw new Error("Network response was not ok");
+                }
+                return response.json();
+            })
+            .then((data) => {
+                console.log(data);
+
+                if (Array.isArray(data)) {
+                    const productsList = document.getElementById("products-list");
+
+                    data.forEach((product) => {
+                        const productElement = document.createElement("div");
+                        productElement.className = "product";
+
+                        const img = document.createElement("img");
+                        img.src = product.image_url;
+                        img.alt = product.title;
+
+                        const title = document.createElement("div");
+                        title.className = "title";
+                        title.textContent = product.title;
+
+                        const description = document.createElement("div");
+                        description.className = "description";
+                        description.textContent = product.description;
+
+                        const price = document.createElement("div");
+                        price.className = "price";
+                        price.textContent = `Price: ${product.price}`;
+
+                        const cartButton = document.createElement("button");
+                        cartButton.className = "cart-button";
+                        cartButton.textContent = "Add to Cart";
+
 
 
