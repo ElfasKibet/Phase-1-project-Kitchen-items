@@ -50,6 +50,28 @@ totalPriceElement.textContent = `Total Price: Ksh${total.toFixed(2)}`;
         updateCartDisplay();
     }
 
+     // Function to handle the checkout process
+     function handleCheckout() {
+        // Simulate a transaction process (replace with your actual logic)
+        // If successful, display the success popup
+        showSuccessPopup();
+    }
+
+    // Function to show the success popup
+    function showSuccessPopup() {
+        const successPopup = document.getElementById("success-popup");
+        successPopup.style.display = "block";
+
+        // Close the popup when the "x" button is clicked
+        const closeBtn = successPopup.querySelector(".close");
+        closeBtn.addEventListener("click", () => {
+            successPopup.style.display = "none";
+            
+            // Clear the cart after successful transaction
+            cart.length = 0;
+            updateCartDisplay();
+        });
+    }
 
 
 
