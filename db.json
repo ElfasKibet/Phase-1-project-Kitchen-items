@@ -139,6 +139,28 @@
       "title": "Hisense microwave",
       "description": "Hisense microwave digital  20 ltrs",
       "price": "KES @11,500"
+    },
+
+    {
+      "id": 21,
+      "image_url": "https://res.cloudinary.com/dm9owyvek/image/upload/v1699865063/WhatsApp_Image_2023-11-08_at_9.37.46_AM_1_opincx.jpg",
+      "title": "NUNIX Micrwave",
+      "description": "Digital + Grill Function, Capacity: 20 Liters",
+      "price": "KES @12,000"
+    },
+    {
+      "id": 22,
+      "image_url": "https://res.cloudinary.com/dm9owyvek/image/upload/v1699868301/WhatsApp_Image_2023-11-13_at_10.40.53_AM_lewpjl.jpg",
+      "title": "signature dinner set",
+      "description": "40pcs signature dinner set",
+      "price": "KES @8,000"
+    },
+    {
+      "id": 23,
+      "image_url": "https://res.cloudinary.com/dm9owyvek/image/upload/v1699868300/WhatsApp_Image_2023-11-13_at_10.37.51_AM_qz05vx.jpg",
+      "title": "signature dinner set",
+      "description": "40pcs signature dinner set",
+      "price": "KES @8,000"
     }
   ]
 }
