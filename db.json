@@ -13,6 +13,20 @@
       "title": "Nunix Cooker",
       "description": "3G+1E. Electric oven. 60cm*60cm",
       "price": "@27,000"
+    },
+    {
+      "id": 3,
+      "image_url": "https://res.cloudinary.com/dm9owyvek/image/upload/v1699869414/WhatsApp_Image_2023-11-13_at_10.39.03_AM_gk2kny.jpg",
+      "title": "Table Top Cooker. ",
+      "description": " Nunix 3+1 Table Top Cooker. ",
+      "price": "KES @6,000"
+    },
+    {
+      "id": 4,
+      "image_url": "https://res.cloudinary.com/dm9owyvek/image/upload/v1699076268/WhatsApp_Image_2023-11-03_at_9.49.00_AM_ctosaa.jpg",
+      "title": "Nunix",
+      "description": "20 lts microwave",
+      "price": "@8,500"
     }
   ]
 }
