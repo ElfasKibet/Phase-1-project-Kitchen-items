@@ -225,3 +225,6 @@ body {
 .contact-info p:nth-child(3) {
   margin-top: 10px;
 }
+h1 {
+  color: #053269;
+}
