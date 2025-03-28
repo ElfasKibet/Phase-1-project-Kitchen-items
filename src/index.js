@@ -42,37 +42,31 @@ document.addEventListener("DOMContentLoaded", () => {
     updateCartDisplay();
     //alert(`Added to Cart: ${product.title}`);
   }
-
-  // Function to remove items from the cart
+// Function to remove items from the cart
   function removeFromCart(index) {
     cart.splice(index, 1);
     updateCartDisplay();
   }
-
-  // Function to handle the checkout process
+ // Function to handle the checkout process
   function handleCheckout() {
     // Simulate a transaction process (replace with your actual logic)
     // If successful, display the success popup
     showSuccessPopup();
   }
-
-  // Function to show the success popup
+ // Function to show the success popup
   function showSuccessPopup() {
     const successPopup = document.getElementById("success-popup");
     successPopup.style.display = "block";
-
-    // Close the popup when the "x" button is clicked
+// Close the popup when the "x" button is clicked
     const closeBtn = successPopup.querySelector(".close");
     closeBtn.addEventListener("click", () => {
       successPopup.style.display = "none";
-
-      // Clear the cart after successful transaction
+// Clear the cart after successful transaction
       cart.length = 0;
       updateCartDisplay();
     });
   }
-
-  // Attach a click event handler to the checkout button
+// Attach a click event handler to the checkout button
   const checkoutButton = document.getElementById("checkout-button");
   checkoutButton.addEventListener("click", handleCheckout);
 
